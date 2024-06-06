@@ -1,0 +1,11 @@
+version: '4'
+
+services:
+  server:
+    build: .
+    ports:
+      - 5000:5000
+    env_file:
+      - .env
+
+   
